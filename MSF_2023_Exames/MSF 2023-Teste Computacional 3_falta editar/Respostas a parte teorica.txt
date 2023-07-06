@@ -1,0 +1,36 @@
+1. Um corpo de massa 0.2kg move-se num oscilador harmónico forçado. O oscilador harmónico tem a energia potencial Ep = 1/2kx*x e exerce no corpo a força Fx = -kx.
+Considere k=5N/m, b=0.5kg/s, F0=1
+a) Qual a frequência angular wf para se alcançar ressonância? Qual a amplitude com este valor de wf?
+R: ω0 = √(5 N/m / 0.2 kg) = √25 N/(m⋅kg) = 5 rad/s ; A = (F0/m) / ((b*wf)/m )= 0.4m
+
+b) A massa do corpo é mudada para 0.8kg. Se wf não muda, qual é a amplitude estacionária agora
+R: A = F0 / m*sqrt(((w0-wf)^2 + (b*wf)/m )^2) = 0.06576m
+
+2. Considere dois corpos A (à esquerda) e B(direita) ligados por uma mola de constante elástica k', e cada um dos corpos ligado a uma mola, de constante elástica k, de extremidade oposta fixa. 
+a)Identifique as forças que atuam em cada massa e então escreva as equações dinamicas de newton do sistema. 
+b) Descreva o movimento dos dois corpos no caso em que os corpos são inicialmente deslocados a mesma distância dos respetivos pontos de equilibrio, em direções opostas, com velocidade inicial 0
+
+a) No sistema descrito, há três forças atuando em cada corpo:
+
+A força restauradora da mola k', que é oposta ao deslocamento relativo entre os corpos A e B.
+A força restauradora da mola k em cada corpo, que é oposta ao deslocamento relativo entre cada corpo e seu ponto de equilíbrio.
+A força de interação entre os corpos A e B, que é de mesma magnitude e direção, mas oposta para cada corpo.
+Usando as convenções de sinal adequadas, podemos escrever as equações dinâmicas de Newton para cada corpo:
+
+Para o corpo A:
+m_A * a_A = -k' * (x_A - x_B) - k * (x_A - x_Aeq)
+
+Para o corpo B:
+m_B * a_B = -k' * (x_B - x_A) - k * (x_B - x_Beq)
+
+
+b) Os corpos A e B irão se mover periodicamente em direções opostas, passando um pelo outro no ponto de equilíbrio. A mola k' irá governar o movimento relativo entre os corpos, enquanto as molas individuais k irão regular o movimento de cada corpo em relação ao seu ponto de equilíbrio.
+O movimento será harmônico, com as massas A e B oscilando de um lado para o outro em torno de suas posições de equilíbrio, alternando entre compressão e extensão das molas. A frequência e amplitude das oscilações dependerão das constantes elásticas k' e k, bem como das massas m_A e m_B.
+
+
+3.a)Num sistema de 5 osciladores harmónicos acoplados, quantos modos normais devemos encontrar?
+R: No sistema de 5 osciladores harmônicos acoplados, podemos encontrar 5 modos normais. Cada modo normal representa uma frequência de oscilação característica do sistema, na qual todos os osciladores se movem de maneira coordenada e harmônica.
+
+b)Uma onda sinusoidal propaga-se numa corda muito comprida, f=10Hz, distancia entre um ponto numa extremidade de oscilação e o ponto mais perto na outra extremidade(máximo e mínimo) é 0.2m. Qual é a velocidade de propagação
+R: Dado que a distância entre o máximo e o mínimo é de 0,2 m, podemos assumir que isso corresponde a meio comprimento de onda, ou seja, λ/2. Assim sendo λ=2*0.2=0.4
+v = f*λ = 10*0.4 = 4m/s
